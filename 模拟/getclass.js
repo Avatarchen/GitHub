@@ -1,4 +1,4 @@
-function getclass(className){
+ var getclass=function(className){
 	var tags=document.getElementsByTagName("*");
 	var data=[];
 	for(var n=1;n<tags.length;n++)
