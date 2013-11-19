@@ -1,0 +1,27 @@
+<html>
+<head>
+	<script type="text/javascript">
+	    var getElementsByClassName=function(b){
+	    	var tags=document.getElementsByTagName("*");
+	    	var data= new Array();
+	    	for(var n=1;n<tags.length;n++){
+	    		var temp=tags.className.split(' ')
+	    		for(m in temp)
+	    			if(temp[m]===b)eles[data.length]=tags[n]; 
+	    	}
+	    }
+	    var getElementsByClassName=function(className){
+	    	var tags=document.getElementsByTagName("*");
+	    	var data= new Array();
+	    	for(m in tags)
+	    		if(tags[m]!==undefined){
+	    			classes=tags[m].className.split(' ')
+	    			for(classNameSplit in classes)
+	    				className==classes[classNameSplit]?data.push(tags[m]):function(){};
+	    		}
+	    		return data;
+	    }
+	</script>
+
+</head>
+</html>
