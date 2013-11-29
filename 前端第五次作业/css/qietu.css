@@ -213,12 +213,12 @@ div.text{
 }
 div.text>ul>li{
 	white-space:nowrap;
-	margin:7px;
-	position: absolute;
+	margin:7px;	
 }
 div.text2{
 	left: 650px;
 	top: 340px;
+        position: absolute;
 }
 div.footer{
 	position: absolute;
